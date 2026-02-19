@@ -1,0 +1,32 @@
+{
+  "id": "bell-state",
+  "name": "Bell State",
+  "category": "fundamentals",
+  "description": "Preparation of the maximally entangled two-qubit Bell state |\u03a6\u207a\u27e9 = (|00\u27e9 + |11\u27e9)/\u221a2.",
+  "long_description": "The Bell state is the simplest example of quantum entanglement. A Hadamard gate places qubit 0 in superposition, and a CNOT gate creates correlation between the two qubits. Measuring one qubit instantly determines the outcome of measuring the other, regardless of distance.",
+  "difficulty": "beginner",
+  "qubit_count": 2,
+  "clbit_count": 2,
+  "gate_count": 2,
+  "depth": 2,
+  "tags": [
+    "entanglement",
+    "fundamentals",
+    "bell-state",
+    "two-qubit"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "50% |00\u27e9, 50% |11\u27e9",
+  "references": [
+    {
+      "title": "Nielsen & Chuang: Quantum Computation and Quantum Information, \u00a71.3",
+      "url": "https://doi.org/10.1017/CBO9780511976667"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
