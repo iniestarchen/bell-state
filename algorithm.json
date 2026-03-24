@@ -1,0 +1,34 @@
+{
+  "slug": "bell-state",
+  "name": "Bell State",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Create a maximally entangled Bell pair (|00> + |11>) / sqrt(2) using a Hadamard gate followed by a CNOT.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 2,
+  "tags": [
+    "entanglement",
+    "bell-pair",
+    "beginner",
+    "fundamentals"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "complexity_classical": "N/A",
+    "complexity_quantum": "O(1)",
+    "year_introduced": 1964,
+    "references": [
+      "https://en.wikipedia.org/wiki/Bell_state"
+    ]
+  }
+}
